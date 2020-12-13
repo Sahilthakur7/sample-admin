@@ -11,7 +11,7 @@ const Sidebar = ({ showSidebar, toggleSidebar }) => {
   }
   return (
     <Fragment>
-      <Backdrop toggleSidebar={toggleSidebar} />
+      <Backdrop toggleSidebar={toggleSidebar} show={showSidebar} />
       <div className={sidebarClass.join(" ")}>I'm also here</div>
     </Fragment>
   );

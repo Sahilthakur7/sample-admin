@@ -15,9 +15,7 @@ const Home = () => {
   return (
     <Fragment>
       <Header />
-      {showSidebar && (
-        <Sidebar toggleSidebar={toggleSidebar} showSidebar={showSidebar} />
-      )}
+      <Sidebar toggleSidebar={toggleSidebar} showSidebar={showSidebar} />
       <Container fluid>
         <Row>
           <Col xs={9}>
